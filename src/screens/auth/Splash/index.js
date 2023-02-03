@@ -27,4 +27,4 @@ const Splash = () => {
         </View>
     )
 }
-export default Splash
+export default React.memo(Splash)
